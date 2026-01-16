@@ -50,4 +50,4 @@ could add code to handle this in a more robust version.
 
 ---
 
-**[https://github.com/DjuneC/guess_the_number.git]**
+**https://github.com/DjuneC/guess_the_number.git**
