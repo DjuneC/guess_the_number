@@ -1,5 +1,7 @@
 import random
 
+from art import logo
+
 level_dict = {
     'easy': 10,
     'hard': 5
@@ -20,9 +22,10 @@ def check_attempt(hidden_number, user_guess):
 
 def main():
     magic_number = random.randint(1, 100)
-    print(magic_number)
     attempts = 0
     win = False
+    
+    print(logo)
 
     print("Welcome to the Number Guessing Game!")
     print(f"I'm thinking of a number between 1 and 100.")
@@ -41,7 +44,7 @@ def main():
 
     while attempts != 0:
 
-        print(f"You have {attempts} attempts remaining to guess the number")
+        print(f"\nYou have {attempts} attempts remaining to guess the number")
 
         user_attempt = int(input("Make a guess:\n--> "))
 
